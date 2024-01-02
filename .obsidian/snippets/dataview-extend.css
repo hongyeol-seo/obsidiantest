@@ -1,0 +1,51 @@
+/* 글씨크기에 맞추기 */ 
+.markdown-rendered table {
+width: auto !important;
+}
+
+/* 데이터뷰 최대 높이 */
+.block-language-dataview  {
+    display: block;
+    max-height: 400px;
+    max-width: 3000px;
+    overflow: auto;
+}
+
+/* 데이터뷰 최대 높이 */
+.block-language-dataviewjs   {
+    display: block;
+    max-height: 400px;
+    overflow: auto;
+}
+
+/* 데이터뷰 파일명에 행번호 넣기 */
+/* 데이터뷰 글쓰폰트 */
+.table-view-table {
+    counter-reset: section;
+  font-size: 14px;
+}
+
+.table-view-table > tbody > tr > td:first-child::before {
+    counter-increment: section;
+    content: "[" counter(section) "] ";
+}
+
+/* 데이터뷰 첫번째열 최대 길이 */
+.table-view-table td:nth-child(1) {
+  min-width: 50px;
+}
+
+/* 데이터뷰 두번째열 최대 길이 */
+.table-view-table td:nth-child(2) {
+  min-width: 50px;
+}
+
+/* 데이터뷰 세번째열 최대 길이 */
+.table-view-table td:nth-child(3) {
+  min-width: 500px;
+}
+
+/* 데이터뷰 세번째열 최대 길이 */
+.table-view-table td:nth-child(4) {
+  min-width: 100px;
+}

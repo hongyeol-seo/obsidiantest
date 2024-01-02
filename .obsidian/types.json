@@ -1,0 +1,11 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "작성자": "checkbox",
+    "만든날짜": "multitext",
+    "출판사": "number",
+    "출간년도": "date"
+  }
+}

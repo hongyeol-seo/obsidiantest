@@ -1,0 +1,9 @@
+{
+  "accentColor": "",
+  "theme": "moonstone",
+  "cssTheme": "Things",
+  "enabledCssSnippets": [
+    "obsidian-css-guide"
+  ],
+  "baseFontSize": 22
+}

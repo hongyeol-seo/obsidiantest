@@ -1,0 +1,182 @@
+/* 연습하려고 만든 css파일 */ 
+
+/* 캔버스상에서의 글씨폰트 */ 
+
+.markdown-preview-view{
+  color:black;
+  font-family: "카페24 고운밤","Uhbee yehee",'Noto Serif';
+}
+
+
+.task-list-item{
+  color:red;
+  font-family: "카페24 고운밤","Uhbee yehee",'Noto Serif';
+
+}
+
+.cm-header{
+  color:white;
+  background-color : black;
+}
+
+.cm-line{
+  color:black;
+  font-family: "하늘보리체 TTF","카페24 고운밤","Uhbee yehee",'Noto Serif';
+}
+
+.cm-header-3{
+  color:white; 
+  font-family: "Uhbee yehee";
+
+}
+
+.nav-files-container{
+  background-color : white
+}
+
+/*
+.cm-scroller{
+  background-color : gray;
+}
+*/
+
+/*
+.cm-strong{
+  color:black;
+  background-color : yellow;
+  font-family:'Noto Serif', 'Noto Serif TC', 'Noto Serif SC', 'Noto Serif KR', 'Noto Serif JP', serif;
+}
+*/
+
+
+***
+
+:root {
+--default-font: 'Noto Sans', 'Noto Sans TC', 'Noto Sans SC', 'Noto Sans KR', 'Noto Sans JP', sans-serif;
+}
+
+/* Markdown and code font settings */
+.markdown-source-view.mod-cm6 .cm-scroller,
+.markdown-preview-view,
+.cm-scroller {
+text-align: justify;
+font-family: 'Noto Serif', 'Noto Serif TC', 'Noto Serif SC', 'Noto Serif KR', 'Noto Serif JP', serif;
+}
+
+.tag,
+.cm-s-obsidian span.cm-tag-S,
+.cm-s-obsidian span.cm-hashtag-begin,
+.cm-s-obsidian span.cm-hashtag-end {
+font-family: 'Noto Sans', 'Noto Sans TC', 'Noto Sans SC', 'Noto Sans KR', 'Noto Sans JP', sans-serif;
+}
+
+strong,
+.cm-s-obsidian span.cm-formatting-strong,
+.cm-s-obsidian span.cm-strong,
+i,
+em,
+span.cm-em {
+font-family: 'Noto Sans', 'Noto Sans TC', 'Noto Sans SC', 'Noto Sans KR', 'Noto Sans JP', sans-serif;
+}
+
+.cm-s-obsidian span.cm-inline-code,
+.cm-s-obsidian .HyperMD-codeblock {
+font-family: 'Noto Sans', 'Noto Sans TC', 'Noto Sans SC', 'Noto Sans KR', 'Noto Sans JP', sans-serif;
+}
+
+.metadata-properties,
+.metadata-properties *,
+.metadata-add-button,
+.metadata-properties-heading {
+font-family: 'Noto Sans', 'Noto Sans TC', 'Noto Sans SC', 'Noto Sans KR', 'Noto Sans JP', sans-serif;
+}
+
+/* Header styles */
+.HyperMD-header-1, .markdown-rendered h1, .markdown-preview-view h1, .com-header-1 {
+/* 연습하려고 만든 css파일 */ 
+
+.cm-header{
+  color:white;
+  background-color : black;
+}
+
+.cm-line{
+  color:white;
+}
+
+.cm-strong{
+  color:black;
+  background-color : yellow;
+}
+
+
+
+
+
+:root {
+--default-font: 'Noto Sans', 'Noto Sans TC', 'Noto Sans SC', 'Noto Sans KR', 'Noto Sans JP', sans-serif;
+}
+
+/* Markdown and code font settings */
+.markdown-source-view.mod-cm6 .cm-scroller,
+.markdown-preview-view,
+.cm-scroller {
+text-align: justify;
+font-family: 'Noto Serif', 'Noto Serif TC', 'Noto Serif SC', 'Noto Serif KR', 'Noto Serif JP', serif;
+}
+
+.tag,
+.cm-s-obsidian span.cm-tag-S,
+.cm-s-obsidian span.cm-hashtag-begin,
+.cm-s-obsidian span.cm-hashtag-end {
+font-family: 'Noto Sans', 'Noto Sans TC', 'Noto Sans SC', 'Noto Sans KR', 'Noto Sans JP', sans-serif;
+}
+
+strong,
+.cm-s-obsidian span.cm-formatting-strong,
+.cm-s-obsidian span.cm-strong,
+i,
+em,
+span.cm-em {
+font-family: 'Noto Sans', 'Noto Sans TC', 'Noto Sans SC', 'Noto Sans KR', 'Noto Sans JP', sans-serif;
+}
+
+.cm-s-obsidian span.cm-inline-code,
+.cm-s-obsidian .HyperMD-codeblock {
+font-family: 'Noto Sans', 'Noto Sans TC', 'Noto Sans SC', 'Noto Sans KR', 'Noto Sans JP', sans-serif;
+}
+
+.metadata-properties,
+.metadata-properties *,
+.metadata-add-button,
+.metadata-properties-heading {
+font-family: 'Noto Sans', 'Noto Sans TC', 'Noto Sans SC', 'Noto Sans KR', 'Noto Sans JP', sans-serif;
+}
+
+/* Header styles */
+.HyperMD-header-1, .markdown-rendered h1, .markdown-preview-view h1, .com-header-1, .cm-header-1{
+text-align: center;
+text-decoration: underline;
+font-style: italic;
+font-weight: 800;
+color: #bf616a;
+font-family: 'Noto Sans', 'Noto Sans TC', 'Noto Sans SC', 'Noto Sans KR', 'Noto Sans JP', sans-serif;
+}
+
+.cm-header-1{
+  color:yellow;
+  background-color : red;
+  text-align:center
+}
+
+
+text-decoration: underline;
+font-style: italic;
+font-weight: 800;
+color: #bf616a;
+font-family: 'Noto Sans', 'Noto Sans TC', 'Noto Sans SC', 'Noto Sans KR', 'Noto Sans JP', sans-serif;
+}
+
+
+
+
